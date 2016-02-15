@@ -14,7 +14,6 @@ int HD_GB = 100;
 long HD_MB;
 
 //*****  Setup  ********************************************
-
 void setup() {
   Serial.begin(9600);
   Serial.print("Your HD is ");
@@ -25,7 +24,6 @@ void setup() {
   Serial.print("pots guarda  ");
   Serial.print(HD_MB);
   Serial.println(" Megabytes!");
-
 }
 
 //*****  Loop     *******************************************

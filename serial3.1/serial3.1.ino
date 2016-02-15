@@ -1,6 +1,5 @@
 /***********************************************************
-**       programa que calcula la hipotenusa               **
-**       apartir de dos catets                            **
+**                                                        **
 **                                                        **
 **                                                        **
 ***********************************************************/
@@ -12,27 +11,35 @@
 
 //*****  Variables  ****************************************
 
-int a = 3;
-int b = 4;
-int h;
+int number= 24;
 
 //*****  Setup  ********************************************
 
 void setup() {
-  Serial.begin(9600);
-  Serial.println("calcular la hipotenusa");
-  Serial.print( "catet a=");
-  Serial.println(a);
-  Serial.print( "catet b=");
-  Serial.println(b);
-  Serial.print( "catet h=");
-  Serial.println( sqrt(pow (a, 2) + pow(b, 2)));
+
+Serial.begin (9600);
 }
 
 //*****  Loop     *******************************************
 void loop() {
 
+Serial.print("DEC:");
+Serial.print (number,DEC);
+Serial.print(",Bin:");
+Serial.print (number,BIN);
+Serial.print(",OCT:");
+Serial.print (number,OCT);
+Serial.print(",HEX:");
+Serial.println  (number,HEX);
 
-
+if (number == 100)
+{
+  while(true)
+  {
+}
 
 }
+ number++;  
+}
+
+

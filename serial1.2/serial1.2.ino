@@ -23,6 +23,6 @@ void setup() {
 void loop() {
 
   Serial.print("helloimad");
-  delay(9000);
+  delay(1000);
 
 }
