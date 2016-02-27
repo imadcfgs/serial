@@ -23,6 +23,6 @@ void setup() {
 void loop() {
 
   Serial.print("helloimad");
-  delay(1000);
+  delay(1000); mostrar text durant un segun
 
 }

@@ -32,14 +32,14 @@ Serial.print (number,OCT);
 Serial.print(",HEX:");
 Serial.println  (number,HEX);
 
-if (number == 100)
+if (number == 100) // si numero es igual a 100 es para 
 {
   while(true)
   {
 }
 
 }
- number++;  
+ number++;  // si no es igual a 100 anira suman fins arriba 100
 }
 
 

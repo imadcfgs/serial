@@ -26,7 +26,7 @@ void setup() {
   Serial.print( "catet b=");
   Serial.println(b);
   Serial.print( "catet h=");
-  Serial.println( sqrt(pow (a, 2) + pow(b, 2)));
+  Serial.println( sqrt(pow (a, 2) + pow(b, 2)));// per fer arrel cuadrada i  elevar al exponent
 }
 
 //*****  Loop     *******************************************
